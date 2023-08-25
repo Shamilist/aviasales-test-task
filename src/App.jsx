@@ -1,19 +1,17 @@
 import React from "react";
 import { Filter } from './components/Filter'
-import { Card } from './components/Card'
+import { Cards } from './components/Cards'
 import { Logo } from './components/Logo'
 import { FooterButton } from "./components/FooterButton";
+import { Tabs } from "./components/Tabs";
 
 const App = () => {
         return (
             <>
             <Logo />
             <Filter />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            <Tabs/>
+            <Cards />
             <FooterButton />
             </>
         )
