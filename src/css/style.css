@@ -32,6 +32,8 @@ body {
     margin-bottom: 50px;
 }
 
+/* ---  filter  --- */
+
 .filter {
     grid-area: filter;
     margin-right: 20px;
@@ -40,6 +42,19 @@ body {
     border-radius: 5px;
     background: var(--elements-background);
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+}
+
+.filter_text {
+    color: var(--text-color);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12px; /* 100% */
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: left;
+    padding-left: 20px;
 }
 
 .card {
