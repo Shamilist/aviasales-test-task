@@ -70,7 +70,7 @@ body {
     margin: 0;
 }
 
-.checkbox_label {
+.checkbox_input+label {
     color: var(--text-color);
     font-size: 13px;
     font-style: normal;
@@ -84,7 +84,7 @@ body {
     cursor: pointer;
 }
 
-.checkbox_label:before {
+.checkbox_input+label::before {
     content: "";
     display: inline-block;
     width: 20px;
@@ -95,7 +95,7 @@ body {
     margin-right: 10px;
   }
 
-  .checkbox_label:checked:before {
+  .checkbox_input:checked+label::before {
     background-image: url('../img/Checkbox-on.svg');
   }
 
