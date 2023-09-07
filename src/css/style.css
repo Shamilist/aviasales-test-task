@@ -156,7 +156,9 @@ body {
     color: var(--text-color);
     background-color: var(--elements-background);
     border-color: var(--border-color);
-    border-width: 1px;
+    border-width: 0.5px;
+    border-style: solid;
+    cursor: pointer;
     }
 
 .left_tab {

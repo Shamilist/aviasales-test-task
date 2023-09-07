@@ -5,7 +5,6 @@ export const Checkbox = ({name, id}) => {
 
     const handleClick = () => {
         isChecked(checked => !checked);
-        console.log('checked', checked)
     }
 
     return (
