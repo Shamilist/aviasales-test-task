@@ -173,6 +173,13 @@ body {
     border-radius: 0;
 }
 
+.active_tab {
+    color: var(--elements-background);
+    background-color: var(--blue);
+    border-color: var(--blue);
+    cursor: default;
+}
+
 .tabs {
     display: flex;
     align-items: center;
